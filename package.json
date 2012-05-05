@@ -1,0 +1,29 @@
+{
+  "name": "female",
+  "description": "Utility to provide female forename.",
+  "version": "0.0.0",
+  "keywords": [
+    "male",
+    "name",
+    "generator"
+  ],
+  "author": "Colin Ross <colin@colinscape.com> (http://colinscape.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colinscape/male.git"
+  },
+  "directories": {
+    "lib": "./lib",
+    "data": "./data"
+  },
+  "bin": {
+    "male": "./lib/female.js"
+  },
+  "main": "./lib/female.js",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {}
+}
